@@ -1,1 +1,31 @@
-123
+chrome
+1、sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+	将下载源加入到系统的源列表。命令的反馈结果如图。如果返回“地址解析错误”等信息，可以百度搜索其他提供 Chrome 下载的源，用其地址替换掉命令中的地址。
+
+2、wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+	导入谷歌软件的公钥，用于下面步骤中对下载软件进行验证。
+	如果顺利的话，命令将返回“OK”
+
+3、sudo apt-get update
+
+4、sudo apt-get install google-chrome-stable
+
+5、/usr/bin/google-chrome-stable
+
+将会启动谷歌 Chrome 浏览器，它的图标将会出现在屏幕左侧的 Launcher 上，在图标上右键——“锁定到启动器”，以后就可以简单地单击启动了。
+
+
+VMware上Ubuntu实现和windows复制粘贴：
+
+http://blog.csdn.net/FX677588/article/details/53096702
+
+
+Putty+Xming远程登录Ubuntu 16.04图形界面：
+1、sudo apt-get install openssh-server
+2、安装xming/putty
+3、配置putty连接，用ifconfig查看server ip
+4、sudo gedit test.txt
+   google-chrome-stable
+   pycharm
+
+http://www.linuxidc.com/Linux/2017-01/139241.htm
