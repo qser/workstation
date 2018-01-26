@@ -1,0 +1,11 @@
+没有gpu的版本还比较好装
+
+https://caffe2.ai/docs/getting-started.html?platform=ubuntu&configuration=compile
+
+Install cuDNN (all Ubuntu versions)#
+Version 5.1
+这条也安装了，可是好像没啥反应，
+
+按照下面的说法，vm里面gpu可能无法正常使用：
+http://blog.csdn.net/zouyu1746430162/article/details/53424058
+
